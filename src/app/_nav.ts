@@ -29,70 +29,14 @@ export const navItems: INavData[] = [
     name: 'Components'
   },
   {
-    name: 'Base',
+    name: 'Grupo 1',
     url: '/base',
-    icon: 'icon-puzzle',
+    icon: 'icon-arrow-up-circle',
     children: [
       {
-        name: 'Cards',
+        name: 'Subir Excel',
         url: '/base/cards',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Carousels',
-        url: '/base/carousels',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Collapses',
-        url: '/base/collapses',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Forms',
-        url: '/base/forms',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Navbars',
-        url: '/base/navbars',
-        icon: 'icon-puzzle'
-
-      },
-      {
-        name: 'Pagination',
-        url: '/base/paginations',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Popovers',
-        url: '/base/popovers',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Progress',
-        url: '/base/progress',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Switches',
-        url: '/base/switches',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Tables',
-        url: '/base/tables',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Tabs',
-        url: '/base/tabs',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Tooltips',
-        url: '/base/tooltips',
-        icon: 'icon-puzzle'
+        icon: 'icon-book-open'
       }
     ]
   },
