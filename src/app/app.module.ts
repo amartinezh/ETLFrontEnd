@@ -66,7 +66,7 @@ import { ChartsModule } from 'ng2-charts';
     IconModule,
     IconSetModule.forRoot(),
     HttpClientModule,
-    FormsModule
+    FormsModule    
   ],
   declarations: [
     AppComponent,
@@ -74,8 +74,7 @@ import { ChartsModule } from 'ng2-charts';
     P404Component,
     P500Component,
     LoginComponent,
-    RegisterComponent,
-    ToastMessagesComponent
+    RegisterComponent
   ],
   providers: [
     {
@@ -83,7 +82,7 @@ import { ChartsModule } from 'ng2-charts';
       useClass: HashLocationStrategy
     },
     IconSetService,
-  ],
+  ],  
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
